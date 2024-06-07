@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Favicons -->
+  <link href="./img/fevi.png" rel="icon">
+  <title>Contact Us</title>
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <style>
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    .video-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      /* background-color: black; Black background */
+    }
+
+    #background-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .content {
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      z-index: 1;
+    }
+
+    h1 {
+      font-size: 3em;
+    }
+
+    p {
+      font-size: 1.5em;
+    }
+
+    .gradient-text {
+      /* font-size: 70px; */
+      background: linear-gradient(45deg, #e7913b, #b74c12);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+      font-weight: bold;
+      letter-spacing: 1px;
+      /* text-shadow: 2px 2px 4px rgba(0,0,0,0.3); */
+    }
+
+    .text {
+      /* background-color: #d2284a; */
+      background: linear-gradient(to right, rgb(97, 163, 184)  ,hsla(211, 36%, 46%, 1));
+      color: white;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      /* margin-top: 20px; */
+      text-align: center;
+      font-family: sans-serif;
+
+    }
+
+   
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light pb-3 pt-3">
+    <a href="popup.html"><img src="./img/Picsart_24-06-03_13-16-43-415 (1).png" alt="" class="px-4" style="height: 60px;"></a>
+    <!-- <a class="navbar-brand" href="../space-lync/img/logo.png"></a> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto mx-5" style="color: black; font-size:20px ; ">
+        <li class="nav-item active" style="padding-right: 20px;">
+          <a class="nav-link" href="career.html">Career Support <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active" style="padding-right: 20px;color: black;">
+          <a class="nav-link " href="story.html">Victories</a>
+        </li>
+        <li class="nav-item active" style="padding-right: 20px;">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <a href="course.html"><button href="" class="btn btn-outline-info mt-1 px-4" style="font-size: 20px;">Our
+            Courses</button></a>
+            <button class="navbar-toggler" value="hidden"  type="button" data-toggle="collapse" data-target="#navbar-list-4" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <!-- <span class=""></span> -->
+            </button>
+            <!-- <div class="collapse navbar-collapse" id="navbar-list-4">
+              <ul class="navbar-nav"> -->
+                  <li class="nav-item dropdown px-3 ">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="./img/Premium Photo _ Blue male avatar blank shape in white hole_ suitable for avatar, internet and profile page themes. 3d illustration" width="25"
+                    height="25" class="rounded-circle">                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="index.html">Home</a>
+                    <a class="dropdown-item" href="#">Edit Profile</a>
+                    <a class="dropdown-item" href="logoutaction.php">Log Out</a>
+                  </div>
+                </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+  <div class="video-container">
+    <video autoplay muted loop id="background-video" style="height: 800px; width: 100%">
+      <source src="./img/video1.mp4" type="video/mp4" />
+    </video>
+    <div class="content">
+
+      <p style="font-size:55px; font-weight: 790; font-family: sans-serif ">
+        <span style="font-family: sans-serif; font-size: 40px; color: #95eafd; "> Contact Us</span> <br>We’d Love To
+        Help You Start Exceeding Your Goals
+      </p>
+    </div>
+  </div>
+  <div class="text">
+    <h3 style="font-size: 26px; font-weight: 700; font-family: sans-serif;">
+      We are looking forward to being a part of your career.<br />
+      If you have any Admission related Query,<br />
+      our team will be happy to assist you!
+    </h3>
+    <div style=" padding-top: 2%; ">
+      <a href="https://www.facebook.com/TechLync/"> <img src="./img/facebook.svg" alt="" height="40px" class="px-2 py-2 mx-2 "
+          style="border: 1px solid white; border-radius: 5px;"></a>
+      <a href="wa.me/+919049333749"> <img src="./img/whatsapp.svg" alt="" height="40px" class="px-2 py-2 mx-2"
+          style="border: 1px solid white; border-radius: 5px;"></a>
+      <a href=""> <img src="./img/instagram.svg" alt="" height="40px" class="px-2 py-2 mx-2"
+          style="border: 1px solid white; border-radius: 5px;"></a>
+      <a href="https://www.linkedin.com/company/space-lync/"> <img src="./img/linkedin.svg" alt="" height="40px" class="px-2 py-2 mx-2"
+          style="border: 1px solid white; border-radius: 5px;"></a>
+      <a href=""> <img src="./img/youtube.svg" alt="" height="40px" class="px-2 py-2 mx-2"
+          style="border: 1px solid white; border-radius: 5px;"></a>
+    </div>
+  </div>
+
+  <h1 class=" text-center mt-5 mb-5 " style="font-size: 40px; font-weight: 760; color: #143359;">Our Locations</h1>
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-lg-6 " style="padding-left: 80px;">
+        <!-- <div id=""> -->
+        <div class="mapping">
+          <iframe class="mt-5 text-center"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.2393459478185!2d79.09124062503363!3d21.103021880564974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4bf889fe2eb99%3A0x9be51c3649845b3a!2sMedPlus%20Narendra%20Nagar!5e0!3m2!1sen!2sin!4v1714407464404!5m2!1sen!2sin"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" style="padding-left: 15%;"></iframe>
+
+          <div class="location">
+            <ul>
+              <li style=" font-size: 35px; list-style:  url(./img/location-dot-solid.svg);">
+
+                <h4 style="color: #de7027;">Nagpur</h4>
+              </li>
+            </ul>
+
+            <p> <span style="font-size: 18px;">Omkar Nagar Road, First Floor , Above MedPlus Pharmacy, Nagpur</span>
+
+            <ul>
+              <li style=" list-style: url(./img/envelope-regular.svg);">
+                <a href="support@space-lync.com">support@aero-space.com</a>
+              </li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6  " style="padding-left: 40px;">
+
+
+        <iframe class="mt-5 text-center "
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.4659453191007!2d73.8081714749626!3d18.50783468258324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfb9177b1087%3A0x7592766cb7c57d89!2sMadhuraj%20Nagar%20Rd%2C%20Jay%20Bhavani%20Nagar%2C%20Kothrud%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1714407529647!5m2!1sen!2sin"
+          width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="location">
+          <ul>
+            <li style=" font-size: 35px; list-style:  url(./img/location-dot-solid.svg);">
+
+              <h4 style="color: #de7027;">Pune</h4>
+            </li>
+          </ul>
+
+          <p> <span style="font-size: 18px;">Madhuraj Nagar Rd, Pratik Nagar, Jay Bhavani Nagar, Kothrud, Pune</span>
+
+          <ul>
+            <li style="list-style: url(./img/envelope-regular.svg);">
+              <a href="support@space-lync.com">support@aero-space.com</a>
+            </li>
+          </ul>
+          </p>
+        </div>
+
+
+
+
+      </div>
+
+    </div>
+    <!-- </div> -->
+
+  </div>
+  </div>
+  <div class="container " style="padding-top: 150px;">
+    <div class="row">
+      <div class="col-lg-6">
+
+
+        <h1 style="color: rgb(138, 136, 199);">Contacts Form</h1>
+        <form action="contact_form_handler.php" method="POST">
+          <div class="form-group">
+            <label for="name" class="form-lable mb-2 mt-5"aria-required="true">Full Name<span style="color: red;">*</span></label>
+            <input type="text" id="name" class="form-control" placeholder="Full Name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="" class="form-lable mb-2 mt-4" aria-required="true" >Mobile<span style="color: red;">*</span></label>
+            <input type="" id="" class="form-control" placeholder="Mobile" name="phone" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="form-lable mb-2 mt-4" aria-required="true" >Email ID<span style="color: red;">*</span></label>
+            <input type="email" id="email" class="form-control" placeholder="Email ID" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message" class="form-lable mb-2 mt-4">Message</label>
+            <textarea id="message" name="message" class="form-control" required></textarea>
+          </div>
+          <div class="d-grid gap-2 mt-4">
+            <input class="btn btn-outline-info py-2" style="font-size: 23px; font-family: sans-serif;"
+             name="submit" type="submit">
+          </div>
+          <div class="mt-5 mb-5">
+            <span style="font-size: 14px; ;">We won’t spam you with emails or call you a hundred times. Let us know what
+              you are looking for, our team
+              will reach out to schedule time with you.</span>
+          </div>
+
+        </form>
+      </div>
+      <div class="col-lg-6">
+
+        <div class="image-container">
+          <img src="./img/customer-support-desk.jpg" alt="Image" height="600px " width="520px">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+      @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+/* footer  */
+section {
+  width: 100%;
+  display: inline-block;
+  background: #000000;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+  /* padding-top: 70px; */
+}
+
+.footer-distributed {
+  background: #000000;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3 {
+  color: #8c8bb9;
+
+  font: normal 36px 'Open Sans', cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span {
+  color: #8f95d7;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: #222;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+  /* color:  #eace2b; */
+  color: #7684c0;
+  text-decoration: none;
+  ;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight: 300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+
+}
+  </style>
+    <footer class="footer-distributed">
+
+      <div class="footer-left">
+  
+        <h4 style="color: #8f95d7;">Aerospace-Innovation<span></span></h4>
+  
+        <p class="footer-links" style="font-size: 14px;">
+          <a href="index.html" class="link-1">Home</a>
+  
+          <a href="course.html">Courses</a>
+  
+          <!-- <a href="#">Pricing</a> -->
+  
+          <a href="story.html">Victories</a>
+  
+  
+  
+          <a href="contact.html">Contact</a>
+        </p>
+  
+        <p class="footer-company-name" style="color: white;">Aero-Space © 2024</p>
+      </div>
+  
+      <div class="footer-center">
+  
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Nagpur , Pune India</span></p>
+        </div>
+  
+        <div>
+          <i class="fa fa-phone" ></i>
+          <p style="font-size: 14px;">+91- 9156887601 </p>
+          <p style="font-size: 14px;">+91- 9284758866</p>
+          
+        </div>
+  
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p style="font-size: 16px;"><a href="mailto:support@company.com">Support@aero-space.com</a></p>
+        </div>
+  
+      </div>
+  
+      <div class="footer-right">
+  
+        <p class="footer-company-about">
+          <span>Contact</span>
+          We are looking forward to being a part of your career.
+          If you have any Admission related Query,
+          our team will be happy to assist you!
+        </p>
+  
+        <div class="footer-icons">
+  
+          <a href="https://www.facebook.com/TechLync/"><i class="fa fa-facebook"></i></a>
+          <a href="wa.me/+919049333749"><i class="fa fa-whatsapp"></i></a>
+          <a href="https://www.linkedin.com/company/space-lync/"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+  
+        </div>
+      </div>
+      </div>
+    </footer>
+
+</body>
+
+</html>

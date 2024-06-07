@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Favicons -->
+  <link href="./img/fevi.png" rel="icon">
+  <title>DIPLOMA</title>
+  <style>
+    .section-title {
+      /* text-align: center; */
+      padding-bottom: 60px;
+      position: relative;
+    }
+
+    .section-title h4 {
+      font-size: 23px;
+      font-weight: 700;
+      margin-bottom: 0px;
+      padding-bottom: 10px;
+      position: relative;
+    }
+
+    .section-title h4:after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 120px;
+      height: 3.5px;
+      background-color: rgb(8, 8, 8);
+      left: 0;
+      right: 0;
+      bottom: 0;
+      /* margin: auto; */
+    }
+
+    .section-t h1 {
+      font-size: 45px;
+      font-weight: 700;
+      margin-bottom: 0px;
+      padding-bottom: 15px;
+      position: relative;
+      color: rgb(94, 149, 237);
+    }
+
+    .section-t h1:after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 100px;
+      height: 3.5px;
+      background-color: rgb(94, 149, 237);
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+
+
+    .gradient-section {
+      height: 1200px;
+      /* background: linear-gradient(to right, rgb(133, 10, 10), #ad2828, #c54115, rgb(129, 7, 7)); */
+      background: linear-gradient(to top, hsla(208, 33%, 21%, 1)  ,hsla(211, 36%, 46%, 1));
+
+      display: flex;
+      /* justify-content: center; */
+      /* align-items: center; */
+      color: white;
+
+      /* text-align: center; */
+
+    }
+  </style>
+
+</head>
+
+<body style="padding-left: 0px; padding-right: px;">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light pb-3 pt-3">
+    <a href="popup.html"><img src="./img/Picsart_24-06-03_13-16-43-415 (1).png" alt="" class="px-4" style="height: 60px;"></a>
+    <!-- <a class="navbar-brand" href="../space-lync/img/logo.png"></a> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto mx-5" style="color: black; font-size:20px ;">
+        <li class="nav-item active" style="padding-right: 20px;">
+          <a class="nav-link" href="career.html">Career Support <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active" style="padding-right: 20px;color: black;">
+          <a class="nav-link " href="story.html">Victories</a>
+        </li>
+        <li class="nav-item active" style="padding-right: 20px;">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <a href="course.html"><button href="" class="btn btn-outline-info mt-1 px-4" style="font-size: 20px;">Our
+            Courses</button></a>
+
+        <button class="navbar-toggler" value="hidden" type="button" data-toggle="collapse" data-target="#navbar-list-4"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class=""></span> -->
+        </button>
+        <!-- <div class="collapse navbar-collapse" id="navbar-list-4">
+              <ul class="navbar-nav"> -->
+        <li class="nav-item dropdown  " style="padding-left: 20px; padding-right: 55px;">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <img src="./img/Premium Photo _ Blue male avatar blank shape in white hole_ suitable for avatar, internet and profile page themes. 3d illustration" width="25"
+            height="25" class="rounded-circle">
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="index.html">Home</a>
+            <a class="dropdown-item" href="#">Edit Profile</a>
+            <a class="dropdown-item" href="logoutaction.php">Log Out</a>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+  <style>
+    .container-fluid {
+background-image: url(./img/bg\ img.jpg);
+
+    }
+    </style>
+  <div class="container-fluid" style=" padding-bottom: 150px;">
+    <div class="text-center">
+
+      <div style="color: orange; padding-top: 80px;  font-size: 20px;">
+
+
+
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <span class="fa fa-star"></span>
+      </div>
+      <p class="my-1 mx-4 text-white "><span class="px-3 text-uppercase "
+          style="background-color: rgb(125, 111, 187); padding-bottom: 2px; border-radius: 3px; font-size: 28px; font-weight: 650;">DIPLOMA
+          IN Aero-eng.
+        </span></p>
+      <h1 style="font-size: 60px; font-weight: 700; color: white;">Diploma in Aeronautical <br> Engineering Course​</h1>
+
+      <h6 class="text-white">This course impart education on design, manufacturing, service, and testing <br> of
+        aircraft. The
+        duration of Diploma in Aeronautical Engineering Course is <br> three years.</h6>
+
+      <a href="#about"> <button class="btn btn-outline-info  px-5 py-3 my-3 " style="font-size: 22px; border: 2px solid white;color: white;  ">LEARN
+          MORE</button></a>
+      <a href="#Application-Form"> <button class="btn btn-outline-info px-5 my-3 py-3 mx-2 "
+          style="font-size: 22px;">APPLY
+          NOW</button></a>
+    </div>
+  </div>
+
+
+  <div class="container section-title ">
+    <div class="row  " id="about" style="margin-top: 200px;">
+      <div class="col-lg-6 ">
+
+        <h4>ABOUT THE COURSE</h4>
+
+        <h2 style="font-size: 45px; margin-top: 30px; font-weight: 700; color: rgb(127, 123, 184); ">Diploma in Aeronautical
+          Engineering Course​
+        </h2>
+        <div style="line-height: 1.5;">
+
+          <div class="mt-4" style="padding-right: 50px;">
+            <ul style="text-decoration:none ; font-size: 5px; list-style:  url(./img/check.svg);">
+              <li style="padding-bottom: 8px; font-size: 20px;"> Diploma in Aeronautical engineering is a
+                3 years engineering program.</li>
+              <li style="padding-bottom: 8px; font-size: 20px;">This structure is divided into the
+                semester system, each semester having 6 months.</li>
+              <li style="padding-bottom: 8px; font-size: 20px;">Candidates should have passed Class 10
+                from a recognized board.</li>
+              <li style="padding-bottom: 8px; font-size: 20px;">They should have studied Mathematics,
+                Science and English as main subjects.</li>
+              <li style="padding-bottom: 8px; font-size: 20px;">They should have secured at least 45%
+                marks in aggregate.</li>
+              <!-- <a href="#" class="btn btn-outline-danger px-5 mt-4 text-center" style="font-size: 20px; ">WHY
+                DIPLOMA FROM SPACE-LYNC</a> -->
+              <style>
+                a {
+                  /* padding: 10px 20px; */
+                  font-size: 16px;
+                  cursor: pointer;
+                  text-decoration: none;
+
+                }
+
+                .popup {
+                  display: none;
+                  position: fixed;
+                  left: 50%;
+                  top: 50%;
+                  transform: translate(-50%, -50%);
+                  width: 600px;
+                  /* padding: 20px; */
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                  /* background: linear-gradient(45deg, #e16c36, #ca4f4f); */
+                  background: linear-gradient(to top, hsla(208, 33%, 21%, 1)  ,hsla(211, 36%, 46%, 1));
+
+                  color: white;
+                  /* border: 1px solid #ccc; */
+                  z-index: 1000;
+                }
+
+                .popup p {
+                  /* margin: 0; */
+                }
+
+                .close {
+                  position: absolute;
+                  top: 10px;
+                  right: 10px;
+                  cursor: pointer;
+                  font-size: 20px;
+                }
+              </style>
+              <script>document.addEventListener("DOMContentLoaded", function () {
+                  const popupLink = document.getElementById("popupLink");
+                  const popupMessage = document.getElementById("popupMessage");
+                  const closeButton = document.getElementById("closeButton");
+
+                  popupLink.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    popupMessage.style.display = "block";
+                  });
+
+                  closeButton.addEventListener("click", function () {
+                    popupMessage.style.display = "none";
+                  });
+
+
+                  window.addEventListener("click", function (event) {
+                    if (event.target == popupMessage) {
+                      popupMessage.style.display = "none";
+                    }
+                  });
+                });
+              </script>
+              <br>
+              <br>
+              <a href="#" id="popupLink" style="color: rgb(47, 48, 131); border: 2px solid rgb(104, 84, 159); border-radius: 5px; padding: 10px 20px;">WHY
+                DIPLOMA FROM AURO-SPACE</a>
+              <div id="popupMessage" class="popup">
+                <span class="close" id="closeButton">&times;</span>
+                <p style="text-align: left; padding-left: 20%;">
+                <h3 style="padding-left: 20%;"><br>Why Diploma from Space-Lync?</h3>
+                <P style="padding-left: 5%; font-size: 13px;">1) Space-Lync has proven experience in giving 100%
+                  placement to his students<br><br>
+                  2) Trainers 10+ IT exp including 6 years of DevOps exp<br><br>
+                  3) 180-hour practical-based training<br><br>
+                  4) 24/7 doubt precise assistance by the technical team<br><br>
+                  5) 300+ interview question-answer discussions by the trainers<br><br>
+                  6) 12 different modules in the Linux environment<br><br>
+                  7) Detailed knowledge transfer on Linux shell scripting<br><br>
+                  8) Resume built up<br><br>
+                  9) In-time teacher entry and course completion in time.<br><br>
+                  10) Technical English transformation<br><br>
+                  11) Multiple mock interview sessions after each module.<br><br>
+                  12) 4+ industry-aligned projects<br><br>
+                  13) Giving multiple job opportunities to students after 5 months once the course is completed.<br><br>
+                </p>
+                </p>
+              </div>
+            </ul>
+
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-6 mt-5">
+        <img src="./img/mtech.jpeg" alt="" width="520px">
+      </div>
+
+
+    </div>
+
+
+    <div class="row" style="margin-top: 200px;">
+
+      <div class="col-lg-5 " style="padding-left: 60px;">
+        <img src="./img/done.jpeg" alt="" width="463.42px" height="463.42px">
+      </div>
+
+      <div class="col-lg-6 " style="padding-top: 10px;">
+        <h4 class="text-uppercase">
+          ELIGIBILITY CRITERIA FOR Aeronautical Engineering
+        </h4>
+        <h2 style="font-size: 28px; margin-top: 30px; font-weight: 700; color: rgb(123, 130, 193); ">For admission to this
+          Diploma in Aeronautical Engineering Course, candidates should have:</h2>
+        <div style="line-height: 1.9;">
+
+          <div class="mt-4" style="padding-right: 50px;">
+            <ul style="text-decoration:none ; font-size: 5px; list-style:  url(./img/check.svg);">5
+              <li style="padding-bottom: 8px; font-size: 20px;"> A bachelor’s degree with an average of
+                50% or higher marks
+              </li>
+              <li style="padding-bottom: 8px; font-size: 20px;"> Fresher’s also welcome
+
+              </li>
+              <li style="padding-bottom: 8px; font-size: 20px;">2+ years of work experience (preferred)
+              </li>
+              <li style="padding-bottom: 8px; font-size: 20px;"> Online and Offline both mode of admission
+                is available.
+
+              </li>
+
+            </ul>
+
+
+          </div>
+        </div>
+
+
+        <div class="mt-5 ">
+          <a href="#Application-Form"> <button class="btn btn-outline-primary px-4 my-3 py- mx-2 "
+              style="font-size: 22px;">APPLY
+              NOW</button></a>
+          <a href="downloadb.php?file=Aerospace_brochure"> <button class="btn btn-outline-info  px-4 py- my-3 " style="font-size: 22px; ">DOWNLOAD
+              BROCHURE
+            </button></a>
+
+          
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+ 
+  <div class="container ">
+    <div class="text-center" style="padding-top: 60px; padding-bottom: 50px;">
+      <h2
+        style="font-size: 44px; font-style: italic; font-weight: 700; font-family: fantasy; color: rgb(17, 31, 94);">
+        “Scope of Aeronautical Engineering in India
+        ”</h2>
+      <h5 style="margin-top: 20px; ">This course impart education on design, manufacturing, service, and testing
+        of aircraft. The duration of Diploma in Aeronautical Engineering Course is three years. The course is
+        divided into six semesters each having six months. In these six semesters, candidates will go through
+        theoretical subjects as well as practical. To apply for admission to this course, the eligibility
+        criteria can be seen below.</h5>
+    </div>
+  </div>
+
+  <div class="container section-t" style="padding-left: 50px; margin-bottom: 100px;">
+    <div class="row " style="padding-top: 30px;">
+      <div class="col-lg-6">
+        <h1 style="color: #a7a3df;">Last Mile Preparation</h1>
+        <div class="mt-5">
+          <ul style="text-decoration:none ; font-size: 10px; list-style:  url(./img/plu.svg);">
+            <li style="padding-bottom: 10px; font-size: 20px;">Resume Building- We helps you to build resume
+              that lands you the job you wantn</li>
+            <li style="padding-bottom: 10px; font-size: 20px;">Interview Preparation- We guide you through
+              each step. You’ll learn the right thing at the right time, all in one place.</li>
+            <li style="padding-bottom: 10px; font-size: 20px;">Mock Interviews- We prepare you to crack real
+              interviews in any Space Craft Professional</li>
+            <li style="padding-bottom: 10px; font-size: 20px;">Best Practices of Professional Networking- We
+              help you to gain practical experience as you meet the top most Industry Leaders that will
+              help you land your dream job.</li>
+          </ul>
+
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <img src="./img/last-mile-preparation.jpg" height="120%" width="100%"
+          style="display: flex; border-radius: 15px " alt="">
+      </div>
+    </div>
+  </div>
+  <div class="container section-t" style="padding-left: 50px; margin-bottom: 100px;">
+    <div class="row " style="padding-top: 100px;">
+      <div class="col-lg-6 " style="">
+        <img src="./img/placement-assistance.jpg" height="110%" width="90%" style="display: flex; border-radius: 15px "
+          alt="">
+      </div>
+      <div class="col-lg-6 " style="padding-left: 50px; padding-right: 110px; padding-top: 50px;">
+        <h1 style="color: #a7a3df;">Placement Assistance</h1>
+        <div style="font-size:22px ; margin-bottom: 30px; margin-top: 20px;">
+
+          <span>All eligible candidates will receive placement assistance for <strong> 6 months </strong>
+            after every program completion.</span>
+        </div>
+        <div class="mt-5" style="padding-right: 50px;">
+          <ul style="text-decoration:none ; font-size: px; list-style:  url(./img/plu.svg);">
+            <li style="padding-bottom: 10px; font-size: 20px;">Access to Opportunities with Leading
+              Companies</li>
+            <li style="padding-bottom: 10px; font-size: 20px;">Workshops on Resume Review & Interview
+              Preparation</li>
+            <li style="padding-bottom: 10px; font-size: 20px;">Career Guidance & Mentorship by <b> AUROSPACE-INNOVATION</b>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="gradient-section " id="Application-Form">
+
+
+    <div class="container " style="padding-top: 100px;">
+      <div class="row">
+        <div class="col-lg-6">
+
+        </div>
+        <div class="col-lg-6">
+          <div class="card px-5">
+
+
+            <div style="padding-top: 60px; " class="text-center ">
+
+              <h1 style="color: rgb(135, 132, 199); font-size: 20px  ; font-weight: 700; ">Application Form</h1>
+              <h3 style="font-weight: 750;">Apply for Aeronautical Engineering Course</h3>
+              <p>We give free career counselling that you don’t <br> want to miss. Speak with our Advisor to
+                learn <br> more about the courses.</p>
+            </div>
+
+            <form action="nform2.php" method="POST">
+              <div class="form-group">
+                <label for="name" class="form-lable mb-2 mt-5" aria-required="true" >Full Name <span style="color: red;">*</span></label>
+                <input type="text" id="name" class="form-control"  aria-required="true" placeholder="Full Name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="Mobile" class="form-lable mb-2 mt-4" aria-required="true" >Mobile <span style="color: red;">*</span></label>
+                <input type="mobile" id="mobile" class="form-control"  aria-required="true" placeholder="Mobile" name="phone" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-lable mb-2 mt-4" aria-required="true">Email ID <span style="color: red;">*</span></label>
+                <input type="email" id="email" class="form-control"  aria-required="true" placeholder="Email ID" name="email" required>
+              </div>
+              <div class="form-group mt-4 ">
+                <label for="" aria-required="true">Profession <span style="color: red;">*</span></label>
+                <select id="" name="profession" aria-required="true"  class="form-select" required>
+                  <option value="Select Option"aria-required="true">Select Option</option>
+                  <option value="Student">Student</option>
+                  <option value="Graduated">Graduated</option>
+                  <option value="Professional">Professional</option>
+                </select>
+              </div>
+              <div class="form-group mt-4">
+                <label for="" aria-required="true">Course you are interested in? <span style="color: red;">*</span></label>
+                <select id="" name="course"  aria-required="true" class="form-select" required>
+                  <option value="Aeronautical Engineering" aria-required="true">Aeronautical Engineering</option>
+                  <option value="PHD in Aeronautical Engineering">PHD in Aeronautical Engineering </option>
+                  <option value="Diploma in Aeronautical Engineering">Diploma in Aeronautical Engineering</option>
+                  <option value="ME/MTech Aeronautical Engineering">ME/MTech Aeronautical Engineering</option>
+                  <option value="BE/BTech Aeronautical Engineering">BE/BTech Aeronautical Engineering</option>
+                </select>
+              </div>
+              <div class="d-grid gap-2 mt-4 text-center">
+                <a href="paymen.html"><input name="submit" type="SUBMIT" class="btn btn-outline-info py-2 px-5" style="font-size: 23px; font-family: sans-serif;">
+              </div>
+              <div class="mt-5">
+                <span style="font-size: 14px; color: #000000 ;">We won’t spam you with emails or call you a hundred times.
+                  Let us know what you are looking for, our team
+                  will reach out to schedule time with you.</span>
+              </div>
+              <div class="text-center mb-4 mt-3">
+
+                <a href="downloadb.php?file=Aerospace_brochure" class="btn btn-outline-info">
+                  <span class="icon">&#10515;</span>
+                  DOWNLOAD BROCHURE
+                  <!-- <span class="icon">&#10515;</span> -->
+                </a>
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+    </div>
+
+  </div>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+    /* footer  */
+    section {
+      width: 100%;
+      display: inline-block;
+      background: #000000;
+      height: 50vh;
+      text-align: center;
+      font-size: 22px;
+      font-weight: 700;
+      text-decoration: underline;
+      /* padding-top: 70px; */
+    }
+
+    .footer-distributed {
+      background: #000000;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+      box-sizing: border-box;
+      width: 100%;
+      text-align: left;
+      font: bold 16px sans-serif;
+      padding: 55px 50px;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    /* Footer left */
+
+    .footer-distributed .footer-left {
+      width: 40%;
+    }
+
+    /* The company logo */
+
+    .footer-distributed h3 {
+      color: #a7a3df;
+
+      font: normal 36px 'Open Sans', cursive;
+      margin: 0;
+    }
+
+    .footer-distributed h3 span {
+      color: #9692c3;
+    }
+
+    /* Footer links */
+
+    .footer-distributed .footer-links {
+      color: #ffffff;
+      margin: 20px 0 12px;
+      padding: 0;
+    }
+
+    .footer-distributed .footer-links a {
+      display: inline-block;
+      line-height: 1.8;
+      font-weight: 400;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .footer-distributed .footer-company-name {
+      color: #222;
+      font-size: 14px;
+      font-weight: normal;
+      margin: 0;
+    }
+
+    /* Footer Center */
+
+    .footer-distributed .footer-center {
+      width: 35%;
+    }
+
+    .footer-distributed .footer-center i {
+      background-color: #33383b;
+      color: #ffffff;
+      font-size: 25px;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 42px;
+      margin: 10px 15px;
+      vertical-align: middle;
+    }
+
+    .footer-distributed .footer-center i.fa-envelope {
+      font-size: 17px;
+      line-height: 38px;
+    }
+
+    .footer-distributed .footer-center p {
+      display: inline-block;
+      color: #ffffff;
+      font-weight: 400;
+      vertical-align: middle;
+      margin: 0;
+    }
+
+    .footer-distributed .footer-center p span {
+      display: block;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 2;
+    }
+
+    .footer-distributed .footer-center p a {
+      /* color:  #eace2b; */
+      color: #957ec3;
+      text-decoration: none;
+      ;
+    }
+
+    .footer-distributed .footer-links a:before {
+      content: "|";
+      font-weight: 300;
+      font-size: 20px;
+      left: 0;
+      color: #fff;
+      display: inline-block;
+      padding-right: 5px;
+    }
+
+    .footer-distributed .footer-links .link-1:before {
+      content: none;
+    }
+
+    /* Footer Right */
+
+    .footer-distributed .footer-right {
+      width: 20%;
+    }
+
+    .footer-distributed .footer-company-about {
+      line-height: 20px;
+      color: #92999f;
+      font-size: 13px;
+      font-weight: normal;
+      margin: 0;
+    }
+
+    .footer-distributed .footer-company-about span {
+      display: block;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .footer-distributed .footer-icons {
+      margin-top: 25px;
+    }
+
+    .footer-distributed .footer-icons a {
+      display: inline-block;
+      width: 45px;
+      height: 40px;
+      cursor: pointer;
+      background-color: #33383b;
+      border-radius: 3px;
+      padding-top: 5px;
+
+      font-size: 29px;
+      color: #ffffff;
+      text-align: center;
+      line-height: 35px;
+
+      margin-right: 3px;
+      margin-bottom: 18px;
+    }
+
+    /* If you don't want the footer to be responsive, remove these media queries */
+
+    @media (max-width: 880px) {
+
+      .footer-distributed {
+        font: bold 14px sans-serif;
+      }
+
+      .footer-distributed .footer-left,
+      .footer-distributed .footer-center,
+      .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+      }
+
+      .footer-distributed .footer-center i {
+        margin-left: 0;
+      }
+
+    }
+  </style>
+  
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <h4 style="color: #a7a3df;">Aerospace-Innovation<span></span></h4>
+
+      <p class="footer-links">
+        <a href="index.html" class="link-1">Home</a>
+
+        <a href="course.html">Courses</a>
+
+        <!-- <a href="#">Pricing</a> -->
+
+        <a href="story.html">Victories</a>
+
+
+
+        <a href="contact.html">Contact</a>
+      </p>
+
+      <p class="footer-company-name" style="color: white;">Aero-Space © 2024</p>
+    </div>
+
+    <div class="footer-center">
+
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Nagpur , India</span></p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+91- 9156887601 </p>
+        <p>+91- 9284758866</p>
+
+
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:support@company.com">Support@tech-lync.com</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p class="footer-company-about">
+        <span>Contact</span>
+        We are looking forward to being a part of your career.
+        If you have any Admission related Query,
+        our team will be happy to assist you!
+      </p>
+
+      <div class="footer-icons">
+
+        <a href="https://www.facebook.com/TechLync/"><i class="fa fa-facebook"></i></a>
+        <a href="wa.me/+919049333749"><i class="fa fa-whatsapp"></i></a>
+        <a href="https://www.linkedin.com/company/space-lync/"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+
+      </div>
+    </div>
+    
+  </footer>
+
+
+
+</body>
+
+</html>
