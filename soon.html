@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>Aero-Space</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+  <!-- Favicons -->
+  <link href="./img/fevi.png" rel="icon">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+   
+   body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-color: black;
+    }
+
+    .gradient-text {
+      background: linear-gradient(45deg,rgb(90, 198, 78), rgb(70, 176, 157), rgb(63, 136, 179 , rgb(89, 89, 214)), rgb(160, 83, 193) , rgb(247, 66, 153),orange, rgb(235, 79, 105) );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+      letter-spacing: 1px;
+      padding-left: 31%;
+    }
+
+
+    /*logo*/
+    .logos {
+      white-space: nowrap;
+      overflow: hidden;
+    }
+
+    .logos img {
+      display: inline-block;
+      animation: slideLeft 10s linear infinite;
+      margin-right: 20px;
+      height: 40px;
+      width: 80px;
+      background-color: white;
+    }
+
+    @keyframes slideLeft {
+      0% {
+        transform: translateX(100%);
+      }
+
+      /* Start position */
+      100% {
+        transform: translateX(-100%);
+      }
+
+      /* End position */
+    }
+
+.new{
+    background: linear-gradient(to right, rgb(155, 222, 103), rgb(47, 90, 165), rgb(167, 80, 255), rgb(229, 53, 138), orange, rgb(237, 58, 151));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 3px 0 0 3px;
+    margin-bottom: 10px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #366fad;
+}
+
+#message {
+    margin-top: 10px;
+    font-size: 18px;
+    background: linear-gradient(to right, rgb(208, 55, 86),  rgb(159, 87, 219));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+   
+}
+  </style>
+
+</head>
+<!-- Bootstrap JS and dependencies -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light pb-3 pt-3">
+      <a href="popup.html"><img src="./img/Picsart_24-06-03_13-16-43-415 (1).png" alt="" class="px-4" style="height: 60px;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mx-5" style="color: black; font-size:20px ;">
+          <li class="nav-item active" style="padding-right: 20px;">
+            <a class="nav-link" href="career.html">Discover Career <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active" style="padding-right: 20px;color: black;">
+            <a class="nav-link " href="story.html">Victories</a>
+          </li>
+          <li class="nav-item active" style="padding-right: 20px;">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <a href="course.html"><button href="" class="btn btn-outline-info mt-1 px-4" style="font-size: 20px;">
+              Courses</button></a>
+  
+          <button class="navbar-toggler" value="hidden" type="button" data-toggle="collapse" data-target="#navbar-list-4"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+   
+          </button>
+     
+          <li class="nav-item dropdown px-4 ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <img src="./img/Premium Photo _ Blue male avatar blank shape in white hole_ suitable for avatar, internet and profile page themes. 3d illustration" width="25"
+                height="25" class="rounded-circle">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="index.html">Home</a>
+              <a class="dropdown-item" href="#">View Profile</a>
+              <a class="dropdown-item" href="logoutaction.php">Log Out</a>
+            </div>
+          </li>
+  
+        </ul>
+      </div>
+    </nav>
+    <div class="soon">
+        <h1 class="new" style="text-align: center;color: white; font-weight: bolder; padding-top: 12%;font-size: 90px;">Coming Soon</h1>
+        <p style="text-align: center;color: white;"> From automation of people processess to creating <br> an engaged and driven culture.</p>
+<br>
+<br>
+
+    </div>
+
+    <div class="container">
+        <input type="email" id="email" placeholder="Please enter your email address" style="background-color: rgb(63, 59, 59);color: rgb(160, 160, 160); font-size: smaller;">
+        <button id="notifyButton">Notify Me</button>
+        <br>
+        <p style="color: white;">-_Notify me when Course is launched _-</p>
+        <p id="message"></p>
+    </div>
+
+    <script>
+    document.getElementById('notifyButton').addEventListener('click', function() {
+    var email = document.getElementById('email').value;
+    if (email) {
+        document.getElementById('message').innerText = 'Thank You!!';
+    } else {
+        document.getElementById('message').innerText = 'Please enter a valid email address.';
+    }
+    });
+
+        </script>
+    </body>
+    </html>
