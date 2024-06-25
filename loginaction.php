@@ -18,6 +18,7 @@ if ($result->num_rows > 0) {
         session_start();
         $_SESSION['user'] = $user['username'];
         header('Location: index.html');
+        
     } else {
         echo "Incorrect password.";
     }
